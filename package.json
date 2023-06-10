@@ -1,6 +1,6 @@
 {
   "name": "mindbox",
-  "homepage":"https://pantaoz.github.io/m1ndb0x-test",
+  "homepage": "https://pantaoz.github.io/m1ndb0x-test",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -16,6 +16,7 @@
     "@types/react": "^18.2.10",
     "@types/react-dom": "^18.2.4",
     "@types/uuid": "^9.0.2",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.7",
@@ -29,7 +30,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
