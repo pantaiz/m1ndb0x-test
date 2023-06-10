@@ -1,6 +1,21 @@
-# Тестовое задание Frontend intern в Mindbox
+# Тестовое задание Frontend intern в M1ndb0x
+## Ссылки
+### [Проект доступен по клику!](https://pantaiz.github.io/m1ndb0x-test/)
+### [Связаться со мной telegram](https://t.me/pantaiz)
+### Почта pantaiz@yandex.ru
+## Запуск проекта
+### `npm i`
+### `npm start`
 
+## Выполнено:
++ Оптимизация(useCallback,memo)
++ Покрытие основного функционала тестами
++ Обработка ошибок ввода
++ CRUD операции
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/111352651/244897180-7ac71866-5307-45ba-a377-de7deea8c95f.png" width="500" height="400">
+<img src="https://github.com/pantaiz/m1ndb0x-test/assets/111352651/07ce051b-b833-41ee-ae57-cfd49b84beb9" width="300" height="200">
 
+## Задание
 Сделайте ToDo-приложение, позволяющее управлять текущим списком дел
 Что должно быть в интерфейсе:
 Поле для ввода новой задачи
