@@ -1,0 +1,51 @@
+
+.socialNetworkBlock {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: 30px;
+}
+.iconContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    /*animation: textWeight 2.8s cubic-bezier(.46, .03, .52, .96) infinite forwards;*/
+    animation: contactAnimation 0.5s alternate infinite forwards;
+
+
+
+}
+@keyframes contactAnimation {
+    0% {
+        fill: black;
+    }
+    100% {
+        fill: #2e7c32;
+    }
+
+}
+
+.iconContainer:hover {
+    /*  background-color: black;
+      border: white 1px solid;*/
+    /*fill: white;*/
+}
+
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+}
+
