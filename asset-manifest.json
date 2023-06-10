@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/m1ndb0x-test/static/css/main.47d798f2.css",
+    "main.js": "/m1ndb0x-test/static/js/main.39805ee2.js",
+    "static/media/github.svg": "/m1ndb0x-test/static/media/github.b0711ddd00931a1e9a35c279e963e264.svg",
+    "static/media/telegram.svg": "/m1ndb0x-test/static/media/telegram.fdf8580536a6f337f9e898d6c727a76c.svg",
+    "index.html": "/m1ndb0x-test/index.html",
+    "main.47d798f2.css.map": "/m1ndb0x-test/static/css/main.47d798f2.css.map",
+    "main.39805ee2.js.map": "/m1ndb0x-test/static/js/main.39805ee2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.47d798f2.css",
+    "static/js/main.39805ee2.js"
+  ]
+}
