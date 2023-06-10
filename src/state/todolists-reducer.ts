@@ -1,8 +1,5 @@
 import {FilterValuesType, TodolistType} from "../features/Todolist/todolist.type";
 
-export type ChangeTodolistFilterACType = ReturnType<typeof changeTodolistFilterAC>
-
-type ActionsType = ChangeTodolistFilterACType
 
 const initialState: TodolistType = {filter: "all"}
 
@@ -15,7 +12,12 @@ export const todolistsReducer = (state: TodolistType = initialState, action: Act
             return state;
     }
 }
+//types
+export type ChangeTodolistFilterACType = ReturnType<typeof changeTodolistFilterAC>
 
+type ActionsType = ChangeTodolistFilterACType
+
+//actions
 export const changeTodolistFilterAC = (filter: FilterValuesType) => ({type: 'CHANGE-TODOLIST-FILTER', filter} as const
 )
 
